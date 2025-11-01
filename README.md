@@ -1,33 +1,45 @@
-# 🎬 Netflix Data Analysis using Python
+# 🎬 Netflix Data Analysis
 
-## 📖 Overview
-This project analyzes Netflix's movie and TV show data to discover patterns in genres, countries, and trends over time.
+This project explores and visualizes data from the **Netflix Titles Dataset**, containing over 8,800 movies and TV shows available on Netflix.  
+The analysis helps uncover insights into Netflix's content distribution, genres, release trends, and more.
 
-## 🧠 Objectives
-- Identify the ratio of Movies vs TV Shows
-- Explore top genres on Netflix
-- Analyze top content-producing countries
-- Study release year trends
+---
 
-## 🛠️ Tools & Libraries
-- Python 🐍
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Jupyter Notebook
+## 📊 Project Overview
 
-## 📊 Key Insights
-1️⃣ Netflix has more movies than TV shows  
-2️⃣ Top countries: United States, India, United Kingdom  
-3️⃣ Most common genres: Drama, Comedy, International Movies  
-4️⃣ Major growth after 2010  
+**Objective:**  
+To analyze Netflix’s catalog and answer key questions such as:
+- What is the proportion of Movies vs TV Shows?
+- Which countries produce the most Netflix titles?
+- What are the most common genres?
+- How has Netflix’s content evolved over time?
 
-## 📈 Report
-👉 [Download the Full PDF Report](Netflix_Data_Analysis_Report.pdf)
+---
 
-## 📁 Dataset
-Dataset source: `netflix_titles.csv`
+## 🧠 Key Steps
 
-## 🧩 How to Run
-```bash
-pip install -r requirements.txt
-jupyter notebook netflix_data_analysis.ipynb
+1. **Data Loading:**  
+   Imported the dataset `netflix_titles.csv` using pandas.
+
+2. **Exploration:**  
+   Viewed top records and dataset structure using `df.head()` and `df.info()`.
+
+3. **Data Cleaning:**  
+   - Removed duplicates  
+   - Handled missing values  
+   - Trimmed whitespace and formatted text  
+   - Converted `date_added` to datetime format
+
+4. **Analysis Performed:**  
+   - Count of Movies vs TV Shows  
+   - Top 10 content-producing countries  
+   - Most common genres  
+   - Distribution of release years  
+
+5. **Visualization:**  
+   Created bar and histogram plots using **Matplotlib** and **Seaborn** for:
+   - Movies vs TV Shows count  
+   - Yearly release distribution  
+   - Top genres on Netflix  
+
+6. **Conclusion:**
