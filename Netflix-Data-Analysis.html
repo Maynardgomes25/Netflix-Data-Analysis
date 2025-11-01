@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>87d637bc22474610a7c221c4a390aeff</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="126252c7-1ecc-43d0-b15b-63f8349821a9" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<div id="c8854447-a4b3-468d-ac35-0b02964c8547" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&quot;netflix_titles.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div id="3c3983c9-8dd5-43ec-a3ca-f0694015668f" class="cell code"
+data-execution_count="7">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">20</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>show_id</th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>date_added</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>s1</td>
+      <td>Movie</td>
+      <td>Dick Johnson Is Dead</td>
+      <td>Kirsten Johnson</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>September 25, 2021</td>
+      <td>2020</td>
+      <td>PG-13</td>
+      <td>90 min</td>
+      <td>Documentaries</td>
+      <td>As her father nears the end of his life, filmm...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>s2</td>
+      <td>TV Show</td>
+      <td>Blood &amp; Water</td>
+      <td>NaN</td>
+      <td>Ama Qamata, Khosi Ngema, Gail Mabalane, Thaban...</td>
+      <td>South Africa</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, TV Dramas, TV Mysteries</td>
+      <td>After crossing paths at a party, a Cape Town t...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>s3</td>
+      <td>TV Show</td>
+      <td>Ganglands</td>
+      <td>Julien Leclercq</td>
+      <td>Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabi...</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Crime TV Shows, International TV Shows, TV Act...</td>
+      <td>To protect his family from a powerful drug lor...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>s4</td>
+      <td>TV Show</td>
+      <td>Jailbirds New Orleans</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Docuseries, Reality TV</td>
+      <td>Feuds, flirtations and toilet talk go down amo...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>s5</td>
+      <td>TV Show</td>
+      <td>Kota Factory</td>
+      <td>NaN</td>
+      <td>Mayur More, Jitendra Kumar, Ranjan Raj, Alam K...</td>
+      <td>India</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, Romantic TV Shows, TV ...</td>
+      <td>In a city of coaching centers known to train I...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>s6</td>
+      <td>TV Show</td>
+      <td>Midnight Mass</td>
+      <td>Mike Flanagan</td>
+      <td>Kate Siegel, Zach Gilford, Hamish Linklater, H...</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>TV Dramas, TV Horror, TV Mysteries</td>
+      <td>The arrival of a charismatic young priest brin...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>s7</td>
+      <td>Movie</td>
+      <td>My Little Pony: A New Generation</td>
+      <td>Robert Cullen, José Luis Ucha</td>
+      <td>Vanessa Hudgens, Kimiko Glenn, James Marsden, ...</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>PG</td>
+      <td>91 min</td>
+      <td>Children &amp; Family Movies</td>
+      <td>Equestria's divided. But a bright-eyed hero be...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>s8</td>
+      <td>Movie</td>
+      <td>Sankofa</td>
+      <td>Haile Gerima</td>
+      <td>Kofi Ghanaba, Oyafunmike Ogunlano, Alexandra D...</td>
+      <td>United States, Ghana, Burkina Faso, United Kin...</td>
+      <td>September 24, 2021</td>
+      <td>1993</td>
+      <td>TV-MA</td>
+      <td>125 min</td>
+      <td>Dramas, Independent Movies, International Movies</td>
+      <td>On a photo shoot in Ghana, an American model s...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>s9</td>
+      <td>TV Show</td>
+      <td>The Great British Baking Show</td>
+      <td>Andy Devonshire</td>
+      <td>Mel Giedroyc, Sue Perkins, Mary Berry, Paul Ho...</td>
+      <td>United Kingdom</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-14</td>
+      <td>9 Seasons</td>
+      <td>British TV Shows, Reality TV</td>
+      <td>A talented batch of amateur bakers face off in...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>s10</td>
+      <td>Movie</td>
+      <td>The Starling</td>
+      <td>Theodore Melfi</td>
+      <td>Melissa McCarthy, Chris O'Dowd, Kevin Kline, T...</td>
+      <td>United States</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>PG-13</td>
+      <td>104 min</td>
+      <td>Comedies, Dramas</td>
+      <td>A woman adjusting to life after a loss contend...</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>s11</td>
+      <td>TV Show</td>
+      <td>Vendetta: Truth, Lies and The Mafia</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Crime TV Shows, Docuseries, International TV S...</td>
+      <td>Sicily boasts a bold "Anti-Mafia" coalition. B...</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>s12</td>
+      <td>TV Show</td>
+      <td>Bangkok Breaking</td>
+      <td>Kongkiat Komesiri</td>
+      <td>Sukollawat Kanarot, Sushar Manaying, Pavarit M...</td>
+      <td>NaN</td>
+      <td>September 23, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Crime TV Shows, International TV Shows, TV Act...</td>
+      <td>Struggling to earn a living in Bangkok, a man ...</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>s13</td>
+      <td>Movie</td>
+      <td>Je Suis Karl</td>
+      <td>Christian Schwochow</td>
+      <td>Luna Wedler, Jannis Niewöhner, Milan Peschel, ...</td>
+      <td>Germany, Czech Republic</td>
+      <td>September 23, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>127 min</td>
+      <td>Dramas, International Movies</td>
+      <td>After most of her family is murdered in a terr...</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>s14</td>
+      <td>Movie</td>
+      <td>Confessions of an Invisible Girl</td>
+      <td>Bruno Garotti</td>
+      <td>Klara Castanho, Lucca Picon, Júlia Gomes, Marc...</td>
+      <td>NaN</td>
+      <td>September 22, 2021</td>
+      <td>2021</td>
+      <td>TV-PG</td>
+      <td>91 min</td>
+      <td>Children &amp; Family Movies, Comedies</td>
+      <td>When the clever but socially-awkward Tetê join...</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>s15</td>
+      <td>TV Show</td>
+      <td>Crime Stories: India Detectives</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 22, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>British TV Shows, Crime TV Shows, Docuseries</td>
+      <td>Cameras following Bengaluru police on the job ...</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>s16</td>
+      <td>TV Show</td>
+      <td>Dear White People</td>
+      <td>NaN</td>
+      <td>Logan Browning, Brandon P. Bell, DeRon Horton,...</td>
+      <td>United States</td>
+      <td>September 22, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>4 Seasons</td>
+      <td>TV Comedies, TV Dramas</td>
+      <td>Students of color navigate the daily slights a...</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>s17</td>
+      <td>Movie</td>
+      <td>Europe's Most Dangerous Man: Otto Skorzeny in ...</td>
+      <td>Pedro de Echave García, Pablo Azorín Williams</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 22, 2021</td>
+      <td>2020</td>
+      <td>TV-MA</td>
+      <td>67 min</td>
+      <td>Documentaries, International Movies</td>
+      <td>Declassified documents reveal the post-WWII li...</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>s18</td>
+      <td>TV Show</td>
+      <td>Falsa identidad</td>
+      <td>NaN</td>
+      <td>Luis Ernesto Franco, Camila Sodi, Sergio Goyri...</td>
+      <td>Mexico</td>
+      <td>September 22, 2021</td>
+      <td>2020</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>Crime TV Shows, Spanish-Language TV Shows, TV ...</td>
+      <td>Strangers Diego and Isabel flee their home in ...</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>s19</td>
+      <td>Movie</td>
+      <td>Intrusion</td>
+      <td>Adam Salky</td>
+      <td>Freida Pinto, Logan Marshall-Green, Robert Joh...</td>
+      <td>NaN</td>
+      <td>September 22, 2021</td>
+      <td>2021</td>
+      <td>TV-14</td>
+      <td>94 min</td>
+      <td>Thrillers</td>
+      <td>After a deadly home invasion at a couple’s new...</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>s20</td>
+      <td>TV Show</td>
+      <td>Jaguar</td>
+      <td>NaN</td>
+      <td>Blanca Suárez, Iván Marcos, Óscar Casas, Adriá...</td>
+      <td>NaN</td>
+      <td>September 22, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>International TV Shows, Spanish-Language TV Sh...</td>
+      <td>In the 1960s, a Holocaust survivor joins a gro...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="eb4674d1-19b1-4a65-af82-20204a5fa77f" class="cell code"
+data-execution_count="8">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Display dataset info nicely</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Dataset Loaded Successfully!&quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Shape of the data: </span><span class="sc">{</span>df<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss"> rows × </span><span class="sc">{</span>df<span class="sc">.</span>shape[<span class="dv">1</span>]<span class="sc">}</span><span class="ss"> columns&quot;</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st"> Preview of the first 5 rows:</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>display(df.head())  <span class="co"># better than print(df.head()) in Jupyter</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Dataset Loaded Successfully!
+Shape of the data: 8807 rows × 12 columns
+
+ Preview of the first 5 rows:
+
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>show_id</th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>date_added</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>s1</td>
+      <td>Movie</td>
+      <td>Dick Johnson Is Dead</td>
+      <td>Kirsten Johnson</td>
+      <td>NaN</td>
+      <td>United States</td>
+      <td>September 25, 2021</td>
+      <td>2020</td>
+      <td>PG-13</td>
+      <td>90 min</td>
+      <td>Documentaries</td>
+      <td>As her father nears the end of his life, filmm...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>s2</td>
+      <td>TV Show</td>
+      <td>Blood &amp; Water</td>
+      <td>NaN</td>
+      <td>Ama Qamata, Khosi Ngema, Gail Mabalane, Thaban...</td>
+      <td>South Africa</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, TV Dramas, TV Mysteries</td>
+      <td>After crossing paths at a party, a Cape Town t...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>s3</td>
+      <td>TV Show</td>
+      <td>Ganglands</td>
+      <td>Julien Leclercq</td>
+      <td>Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabi...</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Crime TV Shows, International TV Shows, TV Act...</td>
+      <td>To protect his family from a powerful drug lor...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>s4</td>
+      <td>TV Show</td>
+      <td>Jailbirds New Orleans</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>1 Season</td>
+      <td>Docuseries, Reality TV</td>
+      <td>Feuds, flirtations and toilet talk go down amo...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>s5</td>
+      <td>TV Show</td>
+      <td>Kota Factory</td>
+      <td>NaN</td>
+      <td>Mayur More, Jitendra Kumar, Ranjan Raj, Alam K...</td>
+      <td>India</td>
+      <td>September 24, 2021</td>
+      <td>2021</td>
+      <td>TV-MA</td>
+      <td>2 Seasons</td>
+      <td>International TV Shows, Romantic TV Shows, TV ...</td>
+      <td>In a city of coaching centers known to train I...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="1c8350c0-99d8-47a6-bf72-0fe057981f0e" class="cell code"
+data-execution_count="9">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 8807 entries, 0 to 8806
+Data columns (total 12 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   show_id       8807 non-null   object
+ 1   type          8807 non-null   object
+ 2   title         8807 non-null   object
+ 3   director      6173 non-null   object
+ 4   cast          7982 non-null   object
+ 5   country       7976 non-null   object
+ 6   date_added    8797 non-null   object
+ 7   release_year  8807 non-null   int64 
+ 8   rating        8803 non-null   object
+ 9   duration      8804 non-null   object
+ 10  listed_in     8807 non-null   object
+ 11  description   8807 non-null   object
+dtypes: int64(1), object(11)
+memory usage: 825.8+ KB
+</code></pre>
+</div>
+</div>
+<div id="a1830782-5d5e-4fcd-ae81-d4109e60e30a" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Missing values per column:&quot;</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.isnull().<span class="bu">sum</span>())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Missing values per column:
+show_id            0
+type               0
+title              0
+director        2634
+cast             825
+country          831
+date_added        10
+release_year       0
+rating             4
+duration           3
+listed_in          0
+description        0
+dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="a2de5967-b212-46c9-819c-390b77784008" class="cell code"
+data-execution_count="11">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df.drop_duplicates(inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div id="c448d34a-2df0-4ce9-8b0f-8a0a481996e7" class="cell code"
+data-execution_count="12">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;date_added&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    df[<span class="st">&#39;date_added&#39;</span>] <span class="op">=</span> pd.to_datetime(df[<span class="st">&#39;date_added&#39;</span>], errors<span class="op">=</span><span class="st">&#39;coerce&#39;</span>)</span></code></pre></div>
+</div>
+<div id="54b1e183-f054-4fe5-ade1-209e66edc035" class="cell code"
+data-execution_count="13" data-scrolled="true">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df.select_dtypes(include<span class="op">=</span><span class="st">&#39;object&#39;</span>).columns:</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    df[col] <span class="op">=</span> df[col].astype(<span class="bu">str</span>).<span class="bu">str</span>.strip()</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">✅ Data cleaned successfully!&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+
+✅ Data cleaned successfully!
+</code></pre>
+</div>
+</div>
+<div id="8ab81f69-928f-43a2-85c7-a182f832886d" class="cell code"
+data-execution_count="14">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;📋 Columns in dataset:&quot;</span>, df.columns.tolist())</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Count unique values in important columns</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> [<span class="st">&#39;type&#39;</span>, <span class="st">&#39;country&#39;</span>, <span class="st">&#39;rating&#39;</span>]:</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> col <span class="kw">in</span> df.columns:</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="ch">\n</span><span class="ss">Unique values in </span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>df[col]<span class="sc">.</span>nunique()<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>📋 Columns in dataset: [&#39;show_id&#39;, &#39;type&#39;, &#39;title&#39;, &#39;director&#39;, &#39;cast&#39;, &#39;country&#39;, &#39;date_added&#39;, &#39;release_year&#39;, &#39;rating&#39;, &#39;duration&#39;, &#39;listed_in&#39;, &#39;description&#39;]
+
+Unique values in type: 2
+
+Unique values in country: 749
+
+Unique values in rating: 18
+</code></pre>
+</div>
+</div>
+<div id="35a01250-e9a5-4824-802e-61a9c1f03596" class="cell code"
+data-execution_count="15">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count of movies vs TV shows</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;type&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🎥 Count of Movies vs TV Shows:&quot;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(df[<span class="st">&#39;type&#39;</span>].value_counts())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🎥 Count of Movies vs TV Shows:
+type
+Movie      6131
+TV Show    2676
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="d89f30db-6784-43bc-955c-93b309c3f8dc" class="cell code"
+data-execution_count="16">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Top 10 countries</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;country&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🌍 Top 10 Countries by Number of Titles:&quot;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(df[<span class="st">&#39;country&#39;</span>].value_counts().head(<span class="dv">10</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🌍 Top 10 Countries by Number of Titles:
+country
+United States     2818
+India              972
+nan                831
+United Kingdom     419
+Japan              245
+South Korea        199
+Canada             181
+Spain              145
+France             124
+Mexico             110
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="54ea6a45-e61a-4b77-8e81-16782d5177ca" class="cell code"
+data-execution_count="17">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Top genres</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;listed_in&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    genres <span class="op">=</span> df[<span class="st">&#39;listed_in&#39;</span>].<span class="bu">str</span>.split(<span class="st">&#39;,&#39;</span>).explode().<span class="bu">str</span>.strip()</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">🎭 Top 10 Genres:&quot;</span>)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(genres.value_counts().head(<span class="dv">10</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+🎭 Top 10 Genres:
+listed_in
+International Movies        2752
+Dramas                      2427
+Comedies                    1674
+International TV Shows      1351
+Documentaries                869
+Action &amp; Adventure           859
+TV Dramas                    763
+Independent Movies           756
+Children &amp; Family Movies     641
+Romantic Movies              616
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div id="276fb1db-ddc9-4b53-ba27-1980aff92336" class="cell code"
+data-execution_count="18">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>sns.<span class="bu">set</span>(style<span class="op">=</span><span class="st">&#39;whitegrid&#39;</span>)</span></code></pre></div>
+</div>
+<div id="a3981f93-d544-4150-8a89-294adb05a8e6" class="cell code"
+data-execution_count="23">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;type&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>,<span class="dv">4</span>))</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    sns.countplot(x<span class="op">=</span><span class="st">&#39;type&#39;</span>, data<span class="op">=</span>df, palette<span class="op">=</span><span class="st">&#39;pastel&#39;</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">&#39;Movies vs TV Shows on Netflix&#39;</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\HP\AppData\Local\Temp\ipykernel_13456\3900881619.py:3: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=&#39;type&#39;, data=df, palette=&#39;pastel&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_7003711b203e4d41a0aac7f08305503f/15837338a75f1432d29a860d39f82b47ea358757.png" /></p>
+</div>
+</div>
+<div id="2079fb95-e304-44d1-8d8a-2a185488a533" class="cell code"
+data-execution_count="24">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Release Year Distribution</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;release_year&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">5</span>))</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    sns.histplot(df[<span class="st">&#39;release_year&#39;</span>], bins<span class="op">=</span><span class="dv">30</span>, kde<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">&#39;Distribution of Release Year&#39;</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Release Year&#39;</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_7003711b203e4d41a0aac7f08305503f/a859dcbe66150e673129ab4000ac2ebbe67e70e8.png" /></p>
+</div>
+</div>
+<div id="c6cffed2-a0f1-480c-b927-f56aa70f0874" class="cell code"
+data-execution_count="26">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Top Genres on Netflix ---</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">&#39;listed_in&#39;</span> <span class="kw">in</span> df.columns:</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Split the comma-separated genres into individual ones</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    genres <span class="op">=</span> df[<span class="st">&#39;listed_in&#39;</span>].dropna().<span class="bu">str</span>.split(<span class="st">&#39;,&#39;</span>).explode().<span class="bu">str</span>.strip()</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Get top 10 most common genres</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a>    top_genres <span class="op">=</span> genres.value_counts().head(<span class="dv">10</span>)</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot</span></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">5</span>))</span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>    sns.barplot(x<span class="op">=</span>top_genres.values, y<span class="op">=</span>top_genres.index, palette<span class="op">=</span><span class="st">&#39;viridis&#39;</span>)</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Titles and labels</span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">&#39;🎭 Top 10 Genres on Netflix&#39;</span>, fontsize<span class="op">=</span><span class="dv">14</span>, fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Number of Titles&#39;</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;Genre&#39;</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Display count values on the bars</span></span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> index, value <span class="kw">in</span> <span class="bu">enumerate</span>(top_genres.values):</span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>        plt.text(value <span class="op">+</span> <span class="dv">5</span>, index, <span class="bu">str</span>(value), va<span class="op">=</span><span class="st">&#39;center&#39;</span>, fontsize<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;⚠️ Column &#39;listed_in&#39; not found in dataset!&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\HP\AppData\Local\Temp\ipykernel_13456\219539717.py:14: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_genres.values, y=top_genres.index, palette=&#39;viridis&#39;)
+C:\Users\HP\AppData\Local\Temp\ipykernel_13456\219539717.py:25: UserWarning: Glyph 127917 (\N{PERFORMING ARTS}) missing from font(s) Arial.
+  plt.tight_layout()
+C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\IPython\core\pylabtools.py:170: UserWarning: Glyph 127917 (\N{PERFORMING ARTS}) missing from font(s) Arial.
+  fig.canvas.print_figure(bytes_io, **kw)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_7003711b203e4d41a0aac7f08305503f/f5204220f42f0ec9ed7e4fefedbdb97bf2c43e24.png" /></p>
+</div>
+</div>
+<div id="064603dd-5bd8-4f8e-b70a-432e6f7aaafa" class="cell code"
+data-execution_count="28">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;&quot;&quot;</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="st">✅ CONCLUSIONS:</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="st">1️⃣ Netflix hosts both Movies and TV Shows, with Movies generally being more dominant.  </span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="st">2️⃣ The top content-producing countries are the United States, India, and the United Kingdom.  </span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="st">3️⃣ Popular genres include Drama, Comedy, and International Movies.  </span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="st">4️⃣ Most titles were released after 2010, highlighting Netflix’s rapid growth in the streaming era.  </span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a><span class="st">5️⃣ These insights help Netflix identify audience preferences and regional strengths.</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a><span class="st">🎉 Analysis Complete!</span></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a><span class="st">&quot;&quot;&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+✅ CONCLUSIONS:
+
+1️⃣ Netflix hosts both Movies and TV Shows, with Movies generally being more dominant.  
+2️⃣ The top content-producing countries are the United States, India, and the United Kingdom.  
+3️⃣ Popular genres include Drama, Comedy, and International Movies.  
+4️⃣ Most titles were released after 2010, highlighting Netflix’s rapid growth in the streaming era.  
+5️⃣ These insights help Netflix identify audience preferences and regional strengths.
+
+🎉 Analysis Complete!
+
+</code></pre>
+</div>
+</div>
+<div id="b9281471-d4b8-4760-9bbf-15590c428a29" class="cell code">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
